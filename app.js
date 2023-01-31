@@ -37,28 +37,3 @@ function newStr(word) {
   return newStr;
 }
 
-let sam = "rotten";
-
-let fun = newStr(sam);
-
-console.log(fun);
-
-// let word = "King"
-// function replaceAtIndex(character, word, index) {
-//         var tempStr = "";
-
-//         for (let n = 0; n < word.length; n++) {
-//           if (n == index) {
-//             tempStr += character;
-//             console.log(tempStr);
-//           } else {
-//             tempStr += word[n];
-//             console.log(tempStr);
-//           }
-//         }
-
-//         return tempStr;
-//       }
-
-//       word = replaceAtIndex("*", word, 1)
-//   console.log(word);
