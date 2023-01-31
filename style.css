@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-body {
+  width: 400px;
+  height: 700px;
+  background-color: rgb(159, 201, 201);
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+#displayImage1 {
+  border-radius: 50%;
+  width: 40px;
+  margin-left: 30px;
+  /* border: 1px solid red; */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 50px;
+  background-color: rgb(45, 102, 45);
+  border-radius: 10px 10px 0 0;
+  font-size: 20px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#name {
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  margin-left: -90px;
+}
+
+#textInput {
+  /* margin-top: 0px; */
+  margin-left: -19px;
+  font-size: 22px;
+  padding: 9px 0 9px 29px;
+  border: 1px solid rgb(185, 169, 169);
+  border-radius: 20px;
+}
+#logos {
+  /* float: ; */
+  /* border: 1px solid red; */
+  width: 70px;
+  /* z-index: 1; */
+}
+
+#VcLogo {
+  width: 30px;
+}
+
+#optionsLogo {
+  width: 30px;
+  margin-left: 39px;
+}
+
+#phoneLogo {
+  width: 30px;
+  margin-left: -70px;
+  margin-top: 10px;
+}
+#micLogo {
+    position: fixed;
+  background-color: rgb(45, 102, 45);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  float: right;
+  /* margin-right: 55px; */
+  /* border: 1px solid red; */
+  margin-top: -50px;
+  margin-left: 320px;
+}
+
+#micImg {
+  margin: auto;
+  width: 33px;
+  margin-left: 10px;
+  margin-top: 8px;
+  /* border: 1px solid red; */
+
+}
+#smileyFace {
+  position: relative;
+  left: 16px;
+  top: 6px;
+  /* width: 20px; */
+}
+
+#chatSection {
+  position: fixed;
+  /* border: 1px solid red; */
+  height: 60px;
+  margin-top: 500px;
+  width: 50%;
+}
+
+#conversation {
+  position: absolute;
+  /* border: 1px solid red; */
+}
+#conversation li {
+  position: relative;
+  /* top: 340px; */
+  left: 170px;
+  color: white;
+  list-style: none;
+  background-color: blue;
+  margin: 10px 0 20px 6px;
+  width: 190px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  border-radius: 20px;
+  height: inherit;
+}
+
+#chatCover {
+  /* display: flex;
+  flex-direction: column-reverse; */
+  padding: 0;
+  
+}
